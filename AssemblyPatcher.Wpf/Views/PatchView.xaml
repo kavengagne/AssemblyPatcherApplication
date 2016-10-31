@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="AssemblyPatcher.Wpf.Views.PatchView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:cal="http://www.caliburnproject.org"
+             xmlns:designMocks="clr-namespace:AssemblyPatcher.Wpf.DesignMocks"
+             mc:Ignorable="d" 
+             d:DesignWidth="300"
+             Focusable="False"
+             d:DataContext="{d:DesignInstance Type=designMocks:PatchViewModelMock, IsDesignTimeCreatable=True}"
+             cal:Bind.AtDesignTime="True"
+             x:Name="UC">
+    <StackPanel>
+        <CheckBox x:Name="IsChecked" Content="{Binding PatchName}"
+                  Margin="5,1" HorizontalAlignment="Stretch" Cursor="Hand" />
+    </StackPanel>
+</UserControl>

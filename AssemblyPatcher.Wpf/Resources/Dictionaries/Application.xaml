@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <ImageSource x:Key="Icon_Assembly_Open">/AssemblyPatcher.Wpf;component/Resources/Images/open-folder-b.png</ImageSource>
+    <ImageSource x:Key="Icon_Assembly_Save">/AssemblyPatcher.Wpf;component/Resources/Images/save-as-b.png</ImageSource>
+
+
+</ResourceDictionary>
